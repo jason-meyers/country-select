@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-	s.name					=	'country-select'
+	s.name					=	'jason-meyers-country-select'
 	s.version				= '1.1.1'
 	s.date					= '2012-03-02'
 	s.summary				= 'Country select box'
