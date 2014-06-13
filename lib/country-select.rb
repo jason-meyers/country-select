@@ -21,7 +21,7 @@ module ActionView
           country_options += options_for_select(priority_countries, selected)
           country_options += "<option value=\"\" disabled=\"disabled\">-------------</option>\n"
 
-          # prevents selected from being included twice in the HTML which causes
+          # prevents selected from being included twice in the HTML which causesm
           # some browsers to select the second selected option (not priority)
           # which makes it harder to select an alternative priority country
           selected = nil if priority_countries.include?(selected)
@@ -54,7 +54,7 @@ module ActionView
         "Lao People's Democratic Republic", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya",
         "Liechtenstein", "Lithuania", "Luxembourg", "Macao", "Macedonia, The Former Yugoslav Republic Of",
         "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Martinique",
-        "Mauritania", "Mauritius", "Mayotte", "Mexico", "Micronesia, Federated States of", "Moldova, Republic of",
+        "Mauritania", "Mauritius", "Mayotte", "Mexico", "Micronesia, Federated States of", "Moldova",
         "Monaco", "Mongolia", "Montenegro", "Montserrat", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauru",
         "Nepal", "Netherlands", "New Caledonia", "New Zealand", "Nicaragua", "Niger",
         "Nigeria", "Niue", "Norfolk Island", "Northern Mariana Islands", "Norway", "Oman", "Pakistan", "Palau",
