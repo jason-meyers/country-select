@@ -51,7 +51,7 @@ module ActionView
         "Honduras", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia", "Iran, Islamic Republic of", "Iraq",
         "Ireland", "Isle of Man", "Israel", "Italy", "Jamaica", "Japan", "Jersey", "Jordan", "Kazakhstan", "Kenya",
         "Kiribati",  "Korea", "Kuwait", "Kyrgyzstan",
-        "Lao People's Democratic Republic", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya",
+        "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya",
         "Liechtenstein", "Lithuania", "Luxembourg", "Macao", "Macedonia, The Former Yugoslav Republic Of",
         "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Martinique",
         "Mauritania", "Mauritius", "Mayotte", "Mexico", "Micronesia, Federated States of", "Moldova",
@@ -70,7 +70,7 @@ module ActionView
         "Togo", "Tokelau", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan",
         "Turks and Caicos Islands", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom",
         "United States", "United States Minor Outlying Islands", "Uruguay", "Uzbekistan", "Vanuatu",
-				"Venezuela", "Viet Nam", "Virgin Islands, British", "Virgin Islands, U.S.",
+				"Venezuela", "Vietnam", "Virgin Islands, British", "Virgin Islands, U.S.",
 				"Wallis and Futuna", "Western Sahara", "Yemen", "Zambia", "Zimbabwe"] unless const_defined?("COUNTRIES")
     end
 
